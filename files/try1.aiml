@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <!-- Приветствие -->
+  <category>
+    <pattern>ПРИВЕТ</pattern>
+    <pattern>ЗДРАВСТВУЙ</pattern>
+    <pattern>ХАЙ</pattern>
+    <template>Привет! Спрашивай про Эйфелеву башню, Колизей или Тадж-Махал.</template>
+  </category>
+  
+  <!-- Эйфелева башня -->
+  <category>
+    <pattern>РАССКАЖИ ПРО ЭЙФЕЛЕВУ БАШНЮ</pattern>
+    <pattern>ЭЙФЕЛЕВА БАШНЯ</pattern>
+    <pattern>ЧТО ТЫ ЗНАЕШЬ ПРО ЭЙФЕЛЕВУ БАШНЮ</pattern>
+    <template>Эйфелева башня — знаменитая железная конструкция в Париже, символ Франции. Построена в 1889 году, высота 330 метров.</template>
+  </category>
+  
+  <category>
+    <pattern>КОГДА ПОСТРОЕНА ЭЙФЕЛЕВА БАШНЯ</pattern>
+    <pattern>В КАКОМ ГОДУ ПОСТРОЕНА ЭЙФЕЛЕВА БАШНЯ</pattern>
+    <template>Эйфелева башня была построена в 1887-1889 годах.</template>
+  </category>
+  
+  <category>
+    <pattern>ГДЕ НАХОДИТСЯ ЭЙФЕЛЕВА БАШНЯ</pattern>
+    <pattern>В КАКОМ ГОРОДЕ ЭЙФЕЛЕВА БАШНЯ</pattern>
+    <template>Эйфелева башня находится в Париже, на Марсовом поле, на берегу реки Сена.</template>
+  </category>
+  
+  <!-- Колизей -->
+  <category>
+    <pattern>РАССКАЖИ ПРО КОЛИЗЕЙ</pattern>
+    <pattern>КОЛИЗЕЙ</pattern>
+    <pattern>ЧТО ТЫ ЗНАЕШЬ ПРО КОЛИЗЕЙ</pattern>
+    <template>Колизей — древнеримский амфитеатр в Риме, известный своими гладиаторскими боями. Вмещал до 50 000 зрителей.</template>
+  </category>
+  
+  <category>
+    <pattern>КОГДА ПОСТРОЕН КОЛИЗЕЙ</pattern>
+    <pattern>В КАКОМ ГОДУ ПОСТРОЕН КОЛИЗЕЙ</pattern>
+    <template>Колизей был построен примерно в 70-80 годах нашей эры императорами династии Флавиев.</template>
+  </category>
+  
+  <category>
+    <pattern>ГДЕ НАХОДИТСЯ КОЛИЗЕЙ</pattern>
+    <pattern>В КАКОМ ГОРОДЕ КОЛИЗЕЙ</pattern>
+    <template>Колизей расположен в центре Рима, Италия, рядом с Римским форумом.</template>
+  </category>
+  
+  <!-- Тадж-Махал -->
+  <category>
+    <pattern>РАССКАЖИ ПРО ТАДЖ МАХАЛ</pattern>
+    <pattern>ТАДЖ МАХАЛ</pattern>
+    <pattern>ЧТО ТЫ ЗНАЕШЬ ПРО ТАДЖ МАХАЛ</pattern>
+    <template>Тадж-Махал — великолепный мавзолей в Индии, построенный императором Шах-Джаханом в память о жене Мумтаз-Махал. Считается шедевром архитектуры.</template>
+  </category>
+  
+  <category>
+    <pattern>КОГДА ПОСТРОЕН ТАДЖ МАХАЛ</pattern>
+    <pattern>В КАКОМ ГОДУ ПОСТРОЕН ТАДЖ МАХАЛ</pattern>
+    <template>Тадж-Махал был построен в 1632-1653 годах.</template>
+  </category>
+  
+  <category>
+    <pattern>ГДЕ НАХОДИТСЯ ТАДЖ МАХАЛ</pattern>
+    <pattern>В КАКОМ ГОРОДЕ ТАДЖ МАХАЛ</pattern>
+    <template>Тадж-Махал находится в городе Агра, Индия, на берегу реки Джамна.</template>
+  </category>
+
+  <!-- Ответ по умолчанию -->
+  <category>
+    <pattern>*</pattern>
+    <template>Извини, я не знаю ответа на этот вопрос. Спроси про Эйфелеву башню, Колизей или Тадж-Махал.</template>
+  </category>
+
+</aiml>
